@@ -32,3 +32,9 @@ function performOperation(){
     }
     performOperation();
 }
+
+
+function resetCheckInput() {
+    input = prompt('Please input a score between 0 and 100: ');
+    checkInput();
+}

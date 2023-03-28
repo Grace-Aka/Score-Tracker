@@ -13,3 +13,22 @@ function checkInput(){
   }
 
 checkInput();
+
+
+function performOperation(){
+    
+    if (input >=0 && input <=30) {
+        console.log("Try Harder your score is low!");
+        return input;
+
+    } else if (input >=31 && input <=60) {
+        console.log("Hey that is a good score but you can do better!");
+        return input;
+    } else if ( input >=61 && input <=100) {
+        console.log("Wow you did great!");
+        return input;
+    } else {
+        console.log('Please input a vaild score')
+    }
+    performOperation();
+}
